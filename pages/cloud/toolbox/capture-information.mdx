@@ -1117,6 +1117,8 @@ The **Retries** setting helps the bot handle situations when it doesn't understa
 **Number of retries**
 
 This is the maximum number of times the bot will ask the user to provide the information again before giving up and moving to the next card in the conversation or triggering the failure transition if enabled.
+If you don't want any retry, you must set the value to 0
+Default value : 2
 
 **Retry message**
 
@@ -1221,14 +1223,17 @@ The **Cancellation** setting can be used to break out of the conversation and ca
 **User can cancel the capture**
 
 With this option turned on, users can cancel the Capture Information card at any time during the conversation.
+Default value : On
 
 **Confirm before cancelling**
 
 If you turn on this option, users will be asked to confirm whether they want to cancel the Capture Information card before it is cancelled.
+Default value : On
 
 **Confirm cancel message**
 
 This option allows you to customise the message that the bot sends to confirm the user's decision to cancel the Capture Information card.
+Default message : Are you sure you want to cancel?
 
 **Example 1:**
 
